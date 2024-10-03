@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #220000;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#foto-marlon {
+    width: 200px; /* Ajuste o tamanho conforme necessário */
+    height: 200px; /* Deve ser igual à largura para manter a forma circular */
+    border-radius: 80%; /* Faz a imagem ficar circular */
+    object-fit: cover; /* Garante que a imagem preencha o espaço */
+    border: 2px solid #35424a; /* Adiciona uma borda (opcional) */
+}
+
+.lista {
+    display: flex; /* Usa flexbox para alinhar os itens */
+    justify-content: center; /* Centraliza horizontalmente */
+    background-color: #220000; /* Cor de fundo da nav */
+    padding: 10px 0; /* Espaçamento vertical */
+}
+
+.lista ul {
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o preenchimento padrão */
+    margin: 0; /* Remove a margem padrão */
+    display: flex; /* Usa flexbox para os itens da lista */
+}
+
+.lista li {
+    margin: 0 15px; /* Espaçamento entre os itens */
+    padding: 10px 15px; /* Espaçamento interno do retângulo */
+    background-color: #0a0909; /* Cor de fundo dos itens */
+    border-radius: 5px; /* Bordas arredondadas */
+    text-align: center; /* Alinha o texto ao centro */
+    transition: background-color 0.3s; /* Efeito de transição ao passar o mouse */
+}
+
+.lista li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #f3f4f5; /* Define a cor do texto */
+}
+
+.lista li:hover {
+    background-color: #e0e0e0; /* Cor de fundo ao passar o mouse */
+}
+
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+#contato {
+    display: flex; /* Usa flexbox para centralizar o conteúdo */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Altura da seção para ocupar toda a altura da tela */
+    background-color: #f9f9f9; /* Cor de fundo da seção */
+}
+
+
+#contato-form {
+    display: flex; /* Usa flexbox para organizar os elementos */
+    flex-direction: column; /* Coloca os elementos em coluna */
+    max-width: 400px; /* Largura máxima do formulário */
+    width: 100%; /* Faz o formulário ocupar 100% da largura permitida */
+    margin: 0 auto; /* Centraliza o formulário */
+    padding: 20px; /* Espaçamento interno do formulário */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+#contato h2 {
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 600px; /* Espaço abaixo do título */
+}
+
+#contato-form label {
+    margin-bottom: 5px; /* Espaçamento abaixo do rótulo */
+}
+
+#contato-form input,
+#contato-form textarea {
+    padding: 10px; /* Espaçamento interno */
+    margin-bottom: 15px; /* Espaçamento abaixo dos campos */
+    border: 1px solid #ccc; /* Borda dos campos */
+    border-radius: 4px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+#contato-form button {
+    padding: 10px; /* Espaçamento interno do botão */
+    background-color: #35424a; /* Cor de fundo do botão */
+    color: #ffffff; /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    font-size: 16px; /* Tamanho da fonte */
+    transition: background-color 0.3s; /* Transição ao passar o mouse */
+}
+
+#contato-form button:hover {
+    background-color: #e0e0e0; /* Cor de fundo ao passar o mouse */
+}
+
+
+footer {
+    background-color: #220000; /* Cor de fundo do rodapé */
+    padding: 20px 0; /* Espaçamento em cima e embaixo */
+    text-align: center; /* Centraliza o conteúdo do rodapé */
+}
+
+.footer-container {
+    display: flex; /* Usar flexbox para alinhamento */
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
+.footer-image {
+    width: 50px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    margin: 0 10px; /* Espaçamento entre as imagens */
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu Portfólio</title>
+</head>
+<body>
+    <header>
+        <h1>Antonio Marlon Da Silva Xavier</h1>
+        <img id="foto-marlon" src="./img/foto-marlon.jpeg" width="300" height="400">
+        <p>Estudante de Ciência da Computação</p>
+        <nav class="lista">
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Nascido em 28/06/2006 em Recife-PE.
+         <br> Natural do Cabo de Santo Agostinho.
+         <br> Finalizei o ensino médio no Colégio Decisão-CSA em 2023.
+         <br> Cursando Ciência da Computação na Unifbv Wyden desde março de 2024.
+         <br> Experiências básicas: Html, Css, Javascript e Python.
+         <br>Trabalhei por muito tempo em uma lanhouse prestando serviço.</p>
+    </section>
+
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <div class="projeto">
+            <h3>Projeto 1</h3>
+            <p>Este é meu primeiro projeto.<br> Estou ganhando mais experiência na área para realizar bons trabalhos futuramente.</p>
+            <img src="./img/foto-animação.png">
+        </div>
+        <!-- Adicione mais projetos conforme necessário -->
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="contato-form">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <a href="https://github.com/Marlonxavier28"><img src="./img/github-2.png" alt="Github" class="footer-image"></a>
+            <a href="https://www.linkedin.com/in/marlon-xavier-20947630b/"><img src="./img/foto-linkedin.png" alt="Linkedin" class="footer-image"></a>
+        </div>
+    </footer>    
+
+    <script src="script.js"></script>
+</body>
+</html>
